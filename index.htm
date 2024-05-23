@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>دفترچه تلفن</h1>
+    </header>
+
+    <form action="">
+        <input type="text" class="todo-name-input" placeholder="نام و نام خانوادگی">
+        <input type="number" class="todo-mobile-input" placeholder="شماره ">
+        <div class="type-number">
+            <select name="" id="" class="type-todo">
+                <option value="0">شماره ثابت</option>
+                <option value="1">شماره همراه</option>
+
+            </select>
+        </div>
+        <button type="submit" class="todo-button">+
+            <!-- <i class="bi bi-plus-circle"></i> -->
+            <!-- <i class="fas fa-plus"></i> -->
+        </button>
+
+    </form>
+
+    <div class="todo-container">
+
+        <div class="select">
+            <select name="todos" id="" class="filter-todo">
+                <option value="2">همگی</option>
+                <option value="0">شماره ثابت</option>
+                <option value="1">شماره همراه</option>
+
+            </select>
+        </div>
+
+        <ul class="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
